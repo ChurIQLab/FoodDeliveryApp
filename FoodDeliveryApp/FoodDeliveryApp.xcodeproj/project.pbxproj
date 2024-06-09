@@ -29,6 +29,8 @@
 		0FBCF5362C1576F900FD1653 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FBCF5352C1576F900FD1653 /* UIColor+Extension.swift */; };
 		0FBCF5382C1577BD00FD1653 /* AppColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FBCF5372C1577BD00FD1653 /* AppColors.swift */; };
 		0FBCF53D2C157B8300FD1653 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FBCF53C2C157B8300FD1653 /* Coordinator.swift */; };
+		0FBCF53F2C157EDA00FD1653 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FBCF53E2C157EDA00FD1653 /* AppCoordinator.swift */; };
+		0FBCF5412C157F7C00FD1653 /* OnboardingCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FBCF5402C157F7C00FD1653 /* OnboardingCoordinator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +58,8 @@
 		0FBCF5352C1576F900FD1653 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
 		0FBCF5372C1577BD00FD1653 /* AppColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColors.swift; sourceTree = "<group>"; };
 		0FBCF53C2C157B8300FD1653 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		0FBCF53E2C157EDA00FD1653 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		0FBCF5402C157F7C00FD1653 /* OnboardingCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingCoordinator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -167,6 +171,8 @@
 			isa = PBXGroup;
 			children = (
 				0FBCF53C2C157B8300FD1653 /* Coordinator.swift */,
+				0FBCF53E2C157EDA00FD1653 /* AppCoordinator.swift */,
+				0FBCF5402C157F7C00FD1653 /* OnboardingCoordinator.swift */,
 			);
 			path = Coordinators;
 			sourceTree = "<group>";
@@ -258,6 +264,8 @@
 				0FBCF5022C156C5A00FD1653 /* AppDelegate.swift in Sources */,
 				0FBCF5342C1572F400FD1653 /* UIFont+Extension.swift in Sources */,
 				0FBCF5382C1577BD00FD1653 /* AppColors.swift in Sources */,
+				0FBCF5412C157F7C00FD1653 /* OnboardingCoordinator.swift in Sources */,
+				0FBCF53F2C157EDA00FD1653 /* AppCoordinator.swift in Sources */,
 				0FBCF5042C156C5A00FD1653 /* SceneDelegate.swift in Sources */,
 				0FBCF5362C1576F900FD1653 /* UIColor+Extension.swift in Sources */,
 				0FBCF53D2C157B8300FD1653 /* Coordinator.swift in Sources */,
