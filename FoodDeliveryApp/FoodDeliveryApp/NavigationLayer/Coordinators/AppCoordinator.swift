@@ -10,8 +10,8 @@ import UIKit
 class AppCoordinator: Coordinator {
 
     override func start() {
-        //showOnboardingFlow()
-        showMainFLow()
+        showOnboardingFlow()
+//        showMainFLow()
     }
 
     override func finish() {
@@ -24,8 +24,9 @@ class AppCoordinator: Coordinator {
 private extension AppCoordinator {
     func showOnboardingFlow() {
         guard let navigationController = navigationController else { return }
-        let onboardingCoordinator = OnboardingCoordinator(type: .onboarding,
-                                                         navigationController: navigationController)
+        let onboardingCoordinator = OnboardingCoordinator(type: .onboarding, 
+                                                          navigationController: navigationController,
+                                                          finishDelegate: self)
         addChildCoordinator(onboardingCoordinator)
         onboardingCoordinator.start()
     }
